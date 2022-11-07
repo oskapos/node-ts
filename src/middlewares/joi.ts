@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import Joi, { any, LanguageMessages, ObjectSchema } from 'joi';
+import Joi, { ObjectSchema } from 'joi';
 import { loginData, signupData } from '../interfaces/interfaces';
 
 export const ValidateJoi = (schema: ObjectSchema) => {
